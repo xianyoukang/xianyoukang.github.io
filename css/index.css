@@ -1,31 +1,34 @@
+html {
+    font-size: 625%;
+}
 .words {
-    font-size: 150px;
+    font-size: 1.5rem;
     font-family: 'Regular', cursive;
     width: auto;
     text-align: center;
 }
 .days {
-    font-size: 216px;
+    font-size: 2.16rem;
     font-family: 'Rye', cursive;
     width: auto;
     text-align: center;
 }
 
 .days-label {
-    font-size: 54px;
+    font-size: 0.54rem;
 }
 
 .seconds {
-    margin-top: 32px;
-    font-size: 32px;
+    margin-top: 0.32rem;
+    font-size: 0.32rem;
     font-family: "Monda_bo", Georgia, sans-serif;
     width: auto;
     text-align: center;
 }
 
 .seconds-label {
-    margin-top: 32px;
-    font-size: 32px;
+    margin-top: 0.32rem;
+    font-size: 0.32rem;
     font-family: "Monda_no", Georgia, sans-serif;
     width: auto;
     text-align: center;
@@ -33,6 +36,13 @@
 
 .container {
     position: absolute;
+    left: calc(50% - 3rem);
+    top: calc(50% - 6rem);
+    width: 6rem;
+    height: 5rem;
+}
+.pics img{
+    width: 30%;
 }
 
 @font-face {

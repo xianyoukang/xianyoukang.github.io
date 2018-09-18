@@ -4,12 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Since The Day</title>
+    <link rel="stylesheet" href="css/swiper.min.css">
     <link rel="stylesheet" href="css/index.css">
 </head>
 
 <body style="background-color: #e7a3c1">
-<div class="container" id="app" style="position: absolute; left: calc(50% - 300px); top: calc(50% - 250px);width: 600px;height: 500px;">
-    <div class="words">love宗琪</div>
+<div class="container" id="app" style="">
+    <div class="pics">
+        <img src="imgs/83618070337873477.jpg" alt="">
+        <img src="imgs/360099291925818514.jpg" alt="">
+        <img src="imgs/363875655844724443.jpg" alt="">
+        <img src="imgs/850918097310592952.jpg" alt="">
+        <img src="imgs/12285917289089354.jpg" alt="">
+        <img src="imgs/609806278224401256.jpg" alt="">
+    </div>
+    <div class="words">love &nbsp; ZONGQI</div>
+    <div style="font-size: 0.20rem;text-align: center;">If youth has an old face, I hope she will not be changed.</div>
     <div class="days">
         <span class="days-number">{{days}}</span>
         <span class="days-label">days</span>
@@ -18,6 +28,7 @@
     <div class="seconds">一共{{msg}}秒</div>
 </div>
 <script src="js/vue.min.js"></script>
+<script src="js/swiper.min.js"></script>
 <script type="text/javascript">
 
     var vm = new Vue({
